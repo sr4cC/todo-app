@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Todo-list</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title-container">
+            <h1>Todo list</h1>
+            <h3>add or remove tasks u have to do</h3>
+        </div>
+        <div class="buttons-container">
+            <button onclick="ShowInpAndBtn()" id="CreateButton" class="create-button">Create</button>
+            <input class="add-input" type="text" id="AddInput" placeholder="Write a task...">
+            <button class="plus-button" id="AddButton">+</button>
+        </div>
+        <div class="tasks-container">
+            <ul id="TasksUl">
+            </ul>
+            <h2 id="DisappearingText" class="disappearing-text">tasks will be here...</h2>
+        </div>
+    </div>
+    <script src="script.js" type="module"></script>
+    <script src="spare.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "A simple todo app built with Electron",
+  "author": "Danill da goatt",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+  "appId": "com.todoapp.desktop",
+  "productName": "todo-app",
+  "win": {
+    "sign": false,
+    "target": "nsis",
+    "icon": "images/todo-icon.ico",
+    "compression": "maximum"
+  },
+  "nsis": {
+    "oneClick": false,
+    "perMachine": true,
+    "allowToChangeInstallationDirectory": true,
+    "deleteAppDataOnUninstall": true
+  },
+  "files": [
+    "**/*", 
+    "!node_modules/**/*",
+    "!dist/**/*",
+    "!out/**/*"
+  ],
+  "asar": true
+}
+}
