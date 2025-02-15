@@ -1,0 +1,23 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.todoapp.desktop
+productName: todo-app
+win:
+  sign: false
+  target: nsis
+  icon: images/todo-icon.ico
+  compression: maximum
+nsis:
+  oneClick: false
+  perMachine: true
+  allowToChangeInstallationDirectory: true
+  deleteAppDataOnUninstall: true
+files:
+  - filter:
+      - '**/*'
+      - '!node_modules/**/*'
+      - '!dist/**/*'
+      - '!out/**/*'
+asar: true
+electronVersion: 34.2.0

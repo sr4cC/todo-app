@@ -1,0 +1,8 @@
+version: 1.0.0
+files:
+  - url: todo-app-Setup-1.0.0.exe
+    sha512: gkuDJwJ4MWAj1sJ+AcW6WAxwGWr0SGTO4cAb4zKophQwxLSmFwgQXRCOI54dx+cU+CGTfdGguSzSnyRL5N/kSQ==
+    size: 82600365
+path: todo-app-Setup-1.0.0.exe
+sha512: gkuDJwJ4MWAj1sJ+AcW6WAxwGWr0SGTO4cAb4zKophQwxLSmFwgQXRCOI54dx+cU+CGTfdGguSzSnyRL5N/kSQ==
+releaseDate: '2025-02-15T19:58:40.885Z'
